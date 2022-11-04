@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     diff-lcs (1.1.3)
     multi_json (1.3.2)
@@ -21,3 +22,6 @@ PLATFORMS
 DEPENDENCIES
   rspec
   simplecov
+
+BUNDLED WITH
+   2.3.21

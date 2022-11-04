@@ -11,6 +11,10 @@ describe "RomanNumeral#convert" do
     RomanNumeral.convert(2).should == 'II'
   end
 
+  it "returns III for 3" do
+    RomanNumeral.convert(3).should == 'III'
+  end
+
   it "returns IV for 4" do
     RomanNumeral.convert(4).should == 'IV'
   end
